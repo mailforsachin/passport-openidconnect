@@ -9,7 +9,7 @@ exports.creds = {
   // To use the common endpoint, you have to either set `validateIssuer` to false, or provide the `issuer` value.
 
   // Required, the client ID of your app in AAD
-  clientID: 'ffa2beff-1d99-4b65-be00-e6893f19ee17',
+  clientID: 'ffa2beff-1d99-4b65-be00-',
 
   // Required, must be 'code', 'code id_token', 'id_token code' or 'id_token'
   responseType: 'code id_token',
@@ -25,7 +25,7 @@ exports.creds = {
 
   // Required if `responseType` is 'code', 'id_token code' or 'code id_token'.
   // If app key contains '\', replace it with '\\'.
-  clientSecret: '0TrOMNgDal0dGZxsCZTiAcQYOMXnn2w98A3eSr0wyZw=',
+  clientSecret: '0TrOMNgDal0dGZxsCZTiAcQYOMXnn2w9eSr0wyZw=',
 
   // Required to set to false if you don't want to validate issuer
   validateIssuer: true,
